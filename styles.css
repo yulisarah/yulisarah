@@ -1,0 +1,32 @@
+body{background-image:url(image/url1.jpg);}
+#wrapper{width:780px;margin:0 auto;overflow:hidden;
+		 border:5px solid white;}
+#header{background-position:center;
+		height:130px;}
+#navigation{background-color:#3c3c3c;width:100%;
+			height:39px;border-bottom:1px solid #ccc;
+			border-top:1px solid #ccc;}
+#navigation ul{padding:0;margin:0;
+			  list-style-type:none;}
+#navigation ul li{float:left;position:relative;}
+#navigation ul li a{display:block;padding:10px 20px;color:#eee;
+				text-decoration:none;font-family: Courier New;}
+/* Menu Dropdown */
+#navigation ul li ul{display:none;}
+#navigation ul li:hover ul{display:block;position:absolute;}
+#navigation ul li:hover ul li a{display:block;background-color:black;
+						  color:#ccc;width:200px;border-bottom:1px solid #ccc;}
+#navigation ul li:hover ul li a:hover{background-color:#72b626;}
+#navigation ul li:hover a{background:#72b626;}
+form{float:right;padding:2px;}
+.search {padding:8px 15px;background:white;
+        border:0px solid #dbdbdb;}
+.button {position:relative;padding:6px 15px;
+		left:-8px;border:2px solid #53bd84;
+		background-color:#53bd84;color:#fafafa;}
+.button:hover  {background-color:#fafafa;color:#207cca;}
+#content{font-family:Courier New;color:white;
+		 padding:5px;height:300px;text-align:justify;}
+h3{text-align:center;}
+#footer{text-align:center;background-color:lightblue;
+		padding:3px;font-family:Courier New;}
